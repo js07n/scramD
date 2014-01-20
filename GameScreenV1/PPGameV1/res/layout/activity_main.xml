@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:text="@string/title"
+        android:textSize="75sp" 
+	/>
+    
+    <ImageView
+        android:id="@+id/image_display"
+        android:contentDescription="@drawable/hisoka"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:textSize="75sp" 
+	/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/solo"
+     />
+    
+    <Button
+        android:id="@+id/button_friends"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/friends"
+    	android:onClick="option_friends"
+     />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/settings"
+     />
+    
+</LinearLayout>
