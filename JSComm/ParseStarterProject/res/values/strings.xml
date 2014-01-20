@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+    <string name="app_name">ParseStarterProject</string>
+    
+    <string name="c_user">Create User</string>
+    <string name="lb">Login Bro</string>
+    <string name="ld">Login Dino</string>
+    <string name="stBro">Send to Bro</string>
+    
+</resources>
